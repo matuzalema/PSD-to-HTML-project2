@@ -129,7 +129,8 @@ p {
   .simple-photo .wrapper {
     max-width: 428px;
     width: 100%;
-    padding: 0 50px 20px 0; }
+    padding: 0 50px 20px 0;
+    margin-left: 50px; }
   .simple-photo p {
     padding-top: 49px;
     padding-left: 30px; }
