@@ -254,8 +254,8 @@ p {
 	}
 	input {
 		width: 300px;
-		height: 60px;
-		border-radius: 3px 0 0 3px;
+		height: 57px;
+		border-radius: 3px;
 		border: none;
 		outline: none;
 		font-size: 16px;
@@ -268,9 +268,10 @@ p {
 	}
 	button.email {
 		width: 63px;
-		height: 60px;
+		height: 57px;
 		line-height: 60px;
-		margin-left: -66px;
+		margin-left: -67px;
+		border-radius:  0 3px 3px 0;
 		display: inline-block;
 	}
 }
@@ -296,24 +297,27 @@ p {
 		text-align: center;
 	}
 	.btn-icon {
-		width: 56px;
+		width: 55px;
 		color: #fff;
 		border: none;
 		background-color: #16a085;
 		display: inline-block;
 		border-radius: 0 3px 3px 0;
-		line-height: 56px;
-		margin-left: -56px;
+		line-height: 58px;
+		margin-left: -73px;
 		cursor: pointer;
 		&:focus{
 		outline: none;
 		}	
 	}
+	.btn-group {
+		display: flex;
+	}
 	button {
 		width: 240px;
 		height: 56px;
-		line-height: 56px;
-		border-radius: 3px 0 0 3px;
+		line-height: 59px;
+		border-radius: 3px;
 		background-color: #1abc9c;
 		display: inline-block;
 		padding-right: 56px;
